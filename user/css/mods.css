@@ -1,0 +1,21 @@
+#sidemenu
+{
+	top: 10%;
+	left: 5%;
+	height: 200px;
+	width: 120px;
+	color: lime;
+	position: fixed;
+	z-index: 1000;
+}
+
+#sidemenu li
+{
+	margin: 7px 7px 7px 7px;
+	background: red;
+}
+
+a
+{
+	text-decoration: none;
+}
