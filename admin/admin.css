@@ -1,0 +1,37 @@
+body
+{
+	font-family: 'Signika', sans-serif;
+}
+
+form
+{
+	font-size: 20px;
+	color: maroon;
+}
+
+input
+{
+	margin : 5px 5px 5px 5px;
+	color: brown;
+}
+
+input:focus
+{
+	box-shadow: 0 0 5px 5px red;
+}
+
+.errmsg
+{
+	font-size: 30px;
+	margin-top: 50px;
+	color: red;
+	text-align: center;
+}
+
+.succtext
+{
+	font-size: 30px;
+	margin-top: 50px;
+	color: green;
+	text-align: center;
+}
