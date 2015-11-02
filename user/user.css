@@ -1,0 +1,70 @@
+body
+{
+	font-family: 'Signika', sans-serif;
+	background-color: black;
+}
+
+form
+{
+	font-size: 20px;
+	color: lime;
+}
+
+input
+{
+	margin : 5px 5px 5px 5px;
+	color: brown;
+}
+
+.errmsg
+{
+	font-size: 30px;
+	margin-top: 50px;
+	color: red;
+	text-align: center;
+}
+
+.succtext
+{
+	font-size: 30px;
+	margin-top: 50px;
+	color: green;
+	text-align: center;
+}
+
+.username
+{
+	color: maroon;
+	font-size: 25px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.head
+{
+	margin-left: 15px;
+	margin-top: 15px;
+	padding: 5px 5px 5px 5px;
+	background-color: lime;
+	width:220px;
+	text-align: center;
+	color: black
+}
+
+.logout
+{
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	right: 1%;
+	padding: 5px 5px 5px 3px;
+	background-color: green;
+	width: 100px;
+	height: 40px;
+	z-index: 1000;
+}
+
+.logout a
+{
+	text-decoration: none;
+}

@@ -1,0 +1,82 @@
+body
+{
+	font-family: 'Signika', sans-serif;
+	background-color: black;
+	color: lime;
+}
+
+h1
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#list
+{
+	position: absolute;
+	float: left;
+	width: 12%;
+	border-right: 2px solid pink;
+}
+
+#main
+{
+	position: absolute;
+	width: 80%;
+	right: 0%;
+}
+
+#list li
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+a
+{
+	text-decoration: none;
+	color: orange;
+}
+
+p
+{
+	font-size: 20px;
+}
+
+#submitdiv
+{
+	position: fixed;
+	bottom: 5%;
+	left: 4%;
+}
+
+button
+{
+	margin-top: 30px;
+	padding: 10px 10px 10px 10px;
+	color: black;
+	background-color: limegreen;
+	box-sizing: border-box;
+	border-radius: 8%;
+	border : 2px solid limegreen;
+	box-shadow: 0px 3px 3px 0px green;
+}
+
+button:hover
+{
+	padding: 10px 10px 10px 10px;
+	color: black;
+	font-weight: bold;
+	background-color: lime;
+	box-sizing: border-box;
+	border-radius: 8%;
+	border : 3px solid lime;
+	box-shadow: none;
+}
+
+#one
+{
+	height: 1000px;
+}
