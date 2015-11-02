@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php  
 	
 	session_start();
@@ -8,6 +9,8 @@
 
 ?>
 
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 <!DOCTYPE html>
 <html>
 
@@ -25,8 +28,11 @@
 
 	<center>
 
+<<<<<<< HEAD
 	<h1>WELCOME ADMIN!!!</h1>
 
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	<h1>INSERT THE QUESTIONS HERE :</h1>
 
 	<form id="" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
@@ -37,7 +43,11 @@
 		OPTION B : <input type="text" name="OPTB" placeholder="OPTIONB" required>
 		OPTION C : <input type="text" name="OPTC" placeholder="OPTIONC" required>
 		OPTION D : <input type="text" name="OPTD" placeholder="OPTIOND" required> <br>
+<<<<<<< HEAD
 		CORRECT ANSWER : <input type="text" name="ANS" placeholder="ANSWER" maxlength="1" required> <br> <br>
+=======
+		CORRECT ANSWER : <input type="text" name="ANS" placeholder="ANSWER" maxlength="1" required> <br>
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 		<input id="submit" type="submit" name="submit" value="ENTER QUESTION">
 
 	</form>
@@ -54,11 +64,20 @@
 			$optb = $_POST['OPTB'];
 			$optc = $_POST['OPTC'];
 			$optd = $_POST['OPTD'];
+<<<<<<< HEAD
 			$ans = strtoupper($_POST['ANS']);
 
 			if( isset($_POST['QNO']) && !empty($_POST['QNO']) && isset($_POST['QUE']) && !empty($_POST['QUE']) && isset($_POST['OPTA']) && !empty($_POST['OPTA']) && isset($_POST['OPTB']) && !empty($_POST['OPTB']) && isset($_POST['OPTC']) && !empty($_POST['OPTC']) && isset($_POST['OPTD']) && !empty($_POST['OPTD']) && isset($_POST['ANS']) && !empty($_POST['ANS']) )
 			{
 				mysql_select_db("db_tow2015");
+=======
+			$ans = $_POST['ANS'];
+
+
+			if( isset($_POST['QNO']) && !empty($_POST['QNO']) && isset($_POST['QUE']) && !empty($_POST['QUE']) && isset($_POST['OPTA']) && !empty($_POST['OPTA']) && isset($_POST['OPTB']) && !empty($_POST['OPTB']) && isset($_POST['OPTC']) && !empty($_POST['OPTC']) && isset($_POST['OPTD']) && !empty($_POST['OPTD']) && isset($_POST['ANS']) && !empty($_POST['ANS']) )
+			{
+				mysql_select_db("db_b130727cs");
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 				$sql = "INSERT INTO TUX_QUESTIONS (`QNO`, `QUESTION`, `OPTA`, `OPTB`, `OPTC`, `OPTD`, `ANS`) VALUES('$qno','$que','$opta','$optb','$optc','$optd','$ans');";
 				$query = mysql_query($sql,$mysql_conn);
 				if(!$query)
@@ -78,8 +97,11 @@
 
 	?>
 
+<<<<<<< HEAD
 	<hr>
 
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	<div id="view">
 
 		<h1>SEE ALL QUESTIONS </h1>
@@ -92,10 +114,16 @@
 
 	 	<?php  
 
+<<<<<<< HEAD
 	 		require "connectdb.php";
 	 		if($_POST["viewsubmit"])
 			{
 				mysql_select_db("db_tow2015");
+=======
+	 		if($_POST["viewsubmit"])
+			{
+				mysql_select_db("db_b130727cs");
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 				$sql = "SELECT * FROM TUX_QUESTIONS";
 				$query = mysql_query($sql,$mysql_conn);
 				if(!$query)
@@ -115,15 +143,22 @@
 
 	</div>	
 
+<<<<<<< HEAD
 	<hr>
 
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	<div id="delete">
 
 		<h1> DELETE A QUESTION </h1>
 		
 	 	<form id="deleteform" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 	 		
+<<<<<<< HEAD
 	 		QNO : <input type="number" placeholder="QNO" name="delqno" required> <br> <br>
+=======
+	 		<input type="number" placeholder="QNO" name="delqno">
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 
 	 		<input type="submit" name="deletesubmit" value="DELETE THE QUESTION">
 
@@ -131,6 +166,7 @@
 
 	 	<?php  
 
+<<<<<<< HEAD
 	 		require "connectdb.php";
 	 		if($_POST["deletesubmit"])
 			{
@@ -139,6 +175,14 @@
 				{
 					$delq = $_POST['delqno'];
 					mysql_select_db("db_tow2015");
+=======
+	 		if($_POST["deletesubmit"])
+			{
+				if(!empty($_POST['delqno']) && isset($_POST['delqno']))
+				{
+					$delq = $_POST['delqno'];
+					mysql_select_db("db_b130727cs");
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 					$sql = "DELETE FROM TUX_QUESTIONS WHERE QNO='$delq'";
 					$query = mysql_query($sql,$mysql_conn);
 					if(!$query)
@@ -153,6 +197,7 @@
 
 	</div>
 
+<<<<<<< HEAD
 	<hr>
 
 	<div id="view">
@@ -277,6 +322,10 @@
 
 	?>
 
+=======
+	</center>
+
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 </body>
 
 </html>

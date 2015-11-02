@@ -34,6 +34,7 @@ input:focus
 	margin-top: 50px;
 	color: green;
 	text-align: center;
+<<<<<<< HEAD
 }
 
 table {
@@ -44,4 +45,6 @@ td, th {
   border: 1px solid #999;
   padding: 0.5rem;
   text-align: left;
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 }

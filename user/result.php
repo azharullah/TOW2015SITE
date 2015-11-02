@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php  
 	
 	session_start();
@@ -12,6 +13,8 @@
 
 ?>
 
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -43,10 +46,17 @@
 		header("Location:index.php");
 	}
 
+<<<<<<< HEAD
 	//echo "<div class='head'>WELCOME &nbsp; <span class='username'>" . $currentuser . "</span></div><br>";
 
 	require "connectdb.php";
 	mysql_select_db("db_tow2015");
+=======
+	echo "<div class='head'>WELCOME   <span class='username'>" . $currentuser . "</span></div><br>";
+
+	require "connectdb.php";
+	mysql_select_db("db_b130727cs");
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 
 	$sql = "SELECT CORRECTANS FROM TUX_PARTICIPANTS WHERE TID='$currentuser';";
 	$query = mysql_query($sql,$mysql_conn);
@@ -78,6 +88,7 @@
 		echo "ERROR";
 	}
 
+<<<<<<< HEAD
 
 	header("Location:round2rules.php");
 
@@ -85,6 +96,10 @@
 	//session_destroy();
 	$_SESSION['user']="abcdef";
 	$_SESSION['newsess']="123456";
+=======
+	//session_unset();
+	//session_destroy();
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 
 ?>
 

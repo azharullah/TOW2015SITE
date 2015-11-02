@@ -7,11 +7,17 @@ body {
 
 .container {
 	position: relative;
+<<<<<<< HEAD
 	/*overflow: hidden;*/
 	overflow-y: scroll;
 	overflow-x: scroll;
 	margin-left: 20%;
 	width: 80%;
+=======
+	overflow: hidden;
+	overflow-y: scroll;
+	width: 100%;
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	height: 100%;
 	-webkit-overflow-scrolling: touch;
 }
@@ -25,8 +31,13 @@ body {
 	z-index: 200;
 	width: 100%;
 	margin: 0 auto;
+<<<<<<< HEAD
 	padding: 0 0em 7em;
 	
+=======
+	padding: 0 0 7em;
+	text-align: center;
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -72,6 +83,10 @@ body {
 }
 
 .slider__nav {
+<<<<<<< HEAD
+=======
+	margin-top: 130px;
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	position: relative;
 	bottom: 2em;
 	width: 100%;

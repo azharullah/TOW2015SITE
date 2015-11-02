@@ -9,7 +9,11 @@
 		$selectedanswer = $_POST['selectedans'];
 
 		require "connectdb.php";
+<<<<<<< HEAD
 		mysql_select_db("db_tow2015");
+=======
+		mysql_select_db("db_b130727cs");
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 		
 		$sql = "SELECT ANS FROM TUX_QUESTIONS WHERE QNO='$question';";
 		$query = mysql_query($sql,$mysql_conn);

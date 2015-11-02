@@ -1,13 +1,20 @@
 body
 {
 	font-family: 'Signika', sans-serif;
+<<<<<<< HEAD
 	background-color: black;
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 }
 
 form
 {
 	font-size: 20px;
+<<<<<<< HEAD
 	color: lime;
+=======
+	color: maroon;
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 }
 
 input
@@ -16,6 +23,14 @@ input
 	color: brown;
 }
 
+<<<<<<< HEAD
+=======
+input:focus
+{
+	box-shadow: 0 0 3px 3px green;
+}
+
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 .errmsg
 {
 	font-size: 30px;
@@ -34,16 +49,23 @@ input
 
 .username
 {
+<<<<<<< HEAD
 	color: maroon;
 	font-size: 25px;
 	margin-top: 10px;
 	font-weight: bold;
+=======
+	color: yellow;
+	font-size: 20px;
+	margin-top: 10px;
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 }
 
 .head
 {
 	margin-left: 15px;
 	margin-top: 15px;
+<<<<<<< HEAD
 	padding: 5px 5px 5px 5px;
 	background-color: lime;
 	width:220px;
@@ -67,4 +89,6 @@ input
 .logout a
 {
 	text-decoration: none;
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 }

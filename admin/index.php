@@ -2,7 +2,10 @@
 
 <?php  
 	session_start();
+<<<<<<< HEAD
 	$_SESSION['admin']="";
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 ?>
 
 <html>
@@ -33,7 +36,11 @@
 
 		require "connectdb.php";
 
+<<<<<<< HEAD
 		mysql_select_db("db_tow2015");
+=======
+		mysql_select_db("db_b130727cs");
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 
 		$adminid = $_POST["ID"];
 		$adminpwd = $_POST["PWD"];
@@ -51,8 +58,12 @@
 				$row = mysql_fetch_assoc($query);
 				if($row['ID']==$adminid && $row['PWD']==$adminpwd)
 				{
+<<<<<<< HEAD
 					$_SESSION['admin']=$adminid;
 					header('Location:admin.php');
+=======
+					header('Location: admin.php');
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 				}
 				else
 				{

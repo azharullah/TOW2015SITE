@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 #sidemenu1
 {
 	top: 10%;
 	left: 2%;
+=======
+#sidemenu
+{
+	top: 10%;
+	left: 5%;
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	height: 200px;
 	width: 120px;
 	color: lime;
@@ -9,6 +16,7 @@
 	z-index: 1000;
 }
 
+<<<<<<< HEAD
 #sidemenu2
 {
 	top: 10%;
@@ -69,11 +77,21 @@
 {
 	max-width: 300px;
 }
+=======
+#sidemenu li
+{
+	margin: 7px 7px 7px 7px;
+<<<<<<< HEAD
+	background: #222125;
+}
+
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 
 a
 {
 	text-decoration: none;
 	color: aqua;
+<<<<<<< HEAD
 }
 
 .options
@@ -163,3 +181,14 @@ label:before {
     position:absolute;
 }
 
+=======
+=======
+	background: red;
+}
+
+a
+{
+	text-decoration: none;
+>>>>>>> c54544efa95b1d208d5d68a30419740ca9cf35d6
+}
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f

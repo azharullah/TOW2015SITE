@@ -10,8 +10,11 @@
  */
 ;(function(window) {
 
+<<<<<<< HEAD
 	$(".slider__nav").css("margin-top","100px");
 
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	'use strict';
 
 	var bodyEl = document.body, 
@@ -121,10 +124,13 @@
 					break;
 			}
 		} );
+<<<<<<< HEAD
 
 		$(".submitans").click(function(){
 			navigate('right');
 		})
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	}
 
 	// opens one item
@@ -245,7 +251,11 @@
 
 	/*  %%%%%%%%%%% My mods %%%%%%%%%%%%  */
 
+<<<<<<< HEAD
 		$("#sidemenu1").find("li").click(function(){
+=======
+		$("#sidemenu").find("li").click(function(){
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	    	var azhar = $(this).index();
 	    	var diff = azhar-current;
 	    	//alert(azhar);
@@ -267,6 +277,7 @@
 	    	}	
 	    })
 
+<<<<<<< HEAD
 	    $("#sidemenu2").find("li").click(function(){
 	    	var azhar = $(this).index() + 15;
 	    	var diff = azhar-current;
@@ -289,6 +300,8 @@
 	    	}	
 	    })
 
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 	/*  %%%%%%%%%%% My mods %%%%%%%%%%%%  */
 
 	// navigate the slider
@@ -305,6 +318,7 @@
 			current = current > 0 ? current - 1 : itemsTotal-1;
 		}
 
+<<<<<<< HEAD
 		if(current == 26 || current == 23)
 		{
 			$(".slider__nav").css("margin-top","240px");
@@ -314,6 +328,8 @@
 			$(".slider__nav").css("margin-top","100px");
 		}
 
+=======
+>>>>>>> 1ee566170dc809dbd6e197bd9cac57c1d6740b3f
 		var itemNext = items[current],
 			nextEl = itemNext.querySelector('.slide__mover'),
 			nextTitleEl = itemNext.querySelector('.slide__title');
